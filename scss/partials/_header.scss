@@ -1,0 +1,42 @@
+$color: rgb(194, 40, 255);
+*{
+background-color: black;
+}
+
+header{
+    background-color: $color;
+    nav{
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        font-size: 25px;
+        background-color: $color;
+        
+        a{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: white;
+            background-color: $color;
+            &:hover{
+                color: rgb(7, 7, 7) ;
+            }
+        }
+    }
+}
+
+main{
+    width: 1350px;
+    height: 500px;
+    color: white;
+    text-align: center;
+    background-color: aqua;
+    img{
+        width: 1000px;
+        height: 400px;
+        
+    }
+    h1{
+        color: $color;
+    }
+}
+
+
