@@ -1,3 +1,5 @@
+@import"../variables/variables";
+
 $color: rgb(194, 40, 255);
 *{
 background-color: black;
@@ -17,7 +19,7 @@ header{
             color: white;
             background-color: $color;
             &:hover{
-                color: rgb(7, 7, 7) ;
+                color: #070707 ;
             }
         }
     }

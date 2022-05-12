@@ -27,3 +27,9 @@ main {
     height: 400px; }
   main h1 {
     color: #c228ff; }
+
+.header-footer {
+  background-color: #eca50a;
+  width: 100%;
+  font-family: verdana;
+  font-size: 20px; }
