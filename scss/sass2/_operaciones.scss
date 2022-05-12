@@ -1,0 +1,11 @@
+@import "../variables/variables";
+
+.box_uno{
+    background-color: $blue;
+    width: $ancho/2;
+
+}
+.box_dos{
+    width: ($ancho/2)-25%;
+    background-color: $green;
+}

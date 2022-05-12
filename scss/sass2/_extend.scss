@@ -1,8 +1,11 @@
 @import"../variables/variables";
 
 .header-footer{
-    background-color: $fondo-de-color;
-    width: $ancho;
+    width: 800px;
+    height: 100px;
     font-family: $tipo-de-letra;
-    font-size: $size;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }

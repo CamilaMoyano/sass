@@ -1,2 +1,7 @@
-@import "partials/header";
-@import"../scss/sass2/extend"
+@import "variables/variables";
+@import "./sass2/extend";
+@import "./sass2/operaciones";
+@import "./sass2/mixins";
+@import "./partials/header";
+@import "./partials/main";
+@import "./partials/footer";

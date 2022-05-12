@@ -1,49 +1,49 @@
+.header-footer, header, footer {
+  width: 800px;
+  height: 100px;
+  font-family: verdana;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  text-align: center; }
+
+.box_uno {
+  background-color: #4285f4;
+  width: 50%; }
+
+.box_dos {
+  width: 25%;
+  background-color: green; }
+
+.header-footer, header, footer {
+  width: 800px;
+  height: 100px;
+  font-family: verdana;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  text-align: center; }
+
 * {
-    background-color: black;
-}
-
-header {
-    background-color: #c228ff;
-}
-
-header nav {
-    text-align: center;
-    display: flex;
-    justify-content: space-around;
-    font-size: 25px;
-    background-color: #c228ff;
-}
-
-header nav a {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
-    background-color: #c228ff;
-}
-
-header nav a:hover {
-    color: #070707;
-}
+  background-color: black; }
 
 main {
-    width: 1350px;
-    height: 500px;
-    color: white;
-    text-align: center;
-    background-color: aqua;
-}
-
-main img {
+  width: 1350px;
+  height: 500px;
+  color: white;
+  text-align: center;
+  background-color: aqua; }
+  main img {
     width: 1000px;
-    height: 400px;
-}
+    height: 400px; }
+  main h1 {
+    color: #c228ff; }
 
-main h1 {
-    color: #c228ff;
-}
-
-.header-footer {
-    background-color: #eca50a;
-    width: 100%;
-    font-family: verdana;
-    font-size: 20px;
-}
+.header-footer, header, footer {
+  width: 800px;
+  height: 100px;
+  font-family: verdana;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  text-align: center; }

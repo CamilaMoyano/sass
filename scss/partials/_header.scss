@@ -1,29 +1,34 @@
 @import"../variables/variables";
+@import"../sass2/extend";
+@import"../sass2/mixins";
 
 $color: rgb(194, 40, 255);
+$width: 1000px;
+$size: small;
+
 *{
 background-color: black;
 }
 
 header{
-    background-color: $color;
-    nav{
-        text-align: center;
-        display: flex;
-        justify-content: space-around;
-        font-size: 25px;
-        background-color: $color;
-        
-        a{
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            color: white;
-            background-color: $color;
-            &:hover{
-                color: #070707 ;
-            }
-        }
-    }
+    @extend .header-footer;
 }
+    
+// //         ;
+//         justify-content: space-around;
+//         font-size: 25px;
+//         background-color: $color;
+        
+//         a{
+//             font-family: Verdana, Geneva, Tahoma, sans-serif;
+//             color: white;
+//             background-color: $color;
+//             &:hover{
+//                 color: #070707 ;
+//             }
+//         }
+//     }
+// }
 
 main{
     width: 1350px;
@@ -32,7 +37,7 @@ main{
     text-align: center;
     background-color: aqua;
     img{
-        width: 1000px;
+        width: $width;
         height: 400px;
         
     }
@@ -40,5 +45,3 @@ main{
         color: $color;
     }
 }
-
-
